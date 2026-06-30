@@ -1,8 +1,12 @@
 import { useRef } from "react";
+import { AnimatedTextLines } from "../components/AnimatedTextLines";
 
 const Hero = () => {
   const contexRef = useRef(null);
   const headerRef = useRef(null);
+  const aboutText = `I help growing brands and startups gain an 
+    unfair advantage through premium 
+    results driven webs/apps`;
   return (
     <section id="home" className="flex flex-col justify-end min-h-screen">
       <div ref={contexRef}>
@@ -24,10 +28,10 @@ const Hero = () => {
         <div className="relative px-10 text-black">
           <div className="absolute inset-x-0 border-t-2"></div>
           <div className="py-12 sm:py-16 text-end">
-            <p className="font-light uppercase value-text-responsive">
-              I help growing brands and startups gain an unfair advantage
-              through premium results driven webs/apps
-            </p>
+            <AnimatedTextLines
+              text={aboutText}
+              className="font-light uppercase value-text-responsive"
+            />
           </div>
         </div>
       </div>
