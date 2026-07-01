@@ -44,9 +44,9 @@ const Hero = () => {
             <p className="text-sm font-light tracking-[0.5rem] uppercase px-10 text-black">
               404 No Bugs Found
             </p>
-            <div className="px-10 py-1.5">
+            <div className="px-10 py-2.5">
               <h1 className="flex flex-col flex-wrap gap-12 text-black uppercase banner-text-responsive sm:gap-16 md:block">
-                gagaming
+                ghebi armando
               </h1>
             </div>
           </div>
