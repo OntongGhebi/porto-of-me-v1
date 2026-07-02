@@ -3,12 +3,24 @@ import gsap from "gsap";
 import { useRef } from "react";
 import { AnimatedTextLines } from "./AnimatedTextLines";
 
-const AnimatedHeaderSection = ({ subTitle, title, text, textColor }) => {
+const AnimatedHeaderSection = ({
+  subTitle,
+  title,
+  text,
+  textColor,
+  withScrollTrigger = false,
+}) => {
   const contexRef = useRef(null);
   const headerRef = useRef(null);
 
   useGSAP(() => {
-    const tl = gsap.timeline();
+    const tl = gsap.timeline({
+      scrollTrigger: withScrollTrigger
+        ? {
+            trigger: contexRef.current,
+          }
+        : undefined,
+    });
     tl.from(contexRef.current, {
       y: "50vh",
       duration: 1,

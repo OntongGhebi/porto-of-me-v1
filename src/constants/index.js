@@ -175,6 +175,9 @@ export const socials = [
     name: "Youtube",
     href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
   },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/ghebi-armando-8b473424a/",
+  },
   { name: "GitHub", href: "https://github.com/OntongGhebi" },
 ];
