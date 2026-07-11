@@ -49,7 +49,7 @@ const AnimatedHeaderSection = ({
           >
             {subTitle}
           </p>
-          <div className="px-10 py-2.5">
+          <div className="px-10 ">
             <h1
               className={`flex flex-col flex-wrap gap-12 ${textColor} uppercase banner-text-responsive sm:gap-16 md:block`}
             >
