@@ -124,10 +124,7 @@ const Marquee = ({
       reversed: reverse,
     });
 
-    const observer = Observer.create({
-      target: containerRef.current,
-      type: "wheel,touch",
-      wheelSpeed: 0.75,
+    Observer.create({
       onChangeY(self) {
         let factor = 2.5;
         if ((!reverse && self.deltaY < 0) || (reverse && self.deltaY > 0)) {
@@ -143,11 +140,7 @@ const Marquee = ({
           .to(tl, { timeScale: factor / 2.5, duration: 1 }, "+=0.3");
       },
     });
-
-    return () => {
-      observer && observer.kill();
-      tl.kill();
-    };
+    return () => tl.kill();
   }, [items, reverse]);
   return (
     <div
