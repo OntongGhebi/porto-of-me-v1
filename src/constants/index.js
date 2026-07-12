@@ -79,95 +79,95 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Honey Bee Classification",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+      "A machine learning web app for classifying honey bee species and managing detailed information or catalogs of each bee type, powered by a CNN model.",
     href: "",
     image: "/assets/projects/beevra2.png",
     bgImage: "/assets/backgrounds/beevra1.png",
     frameworks: [
-      { id: 1, name: "React" },
+      { id: 1, name: "Expres.js" },
       { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
-      { id: 4, name: "MongoDB" },
-      { id: 5, name: "Tailwind CSS" },
+      { id: 3, name: "Firebase" },
+      { id: 4, name: "Firestore" },
+      { id: 5, name: "Google Cloud Platform" },
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "Centralized Web Manage Files",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
+      "A centralized web platform for managing files efficiently with organized storage, fast access, and secure collaboration.",
     href: "",
     image: "/assets/projects/dins2.png",
     bgImage: "/assets/backgrounds/dins1.png",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
-      { id: 4, name: "Tailwind CSS" },
+      { id: 1, name: "Express.js" },
+      { id: 2, name: "Firestore" },
+      { id: 3, name: "Google Cloud Platform" },
+      { id: 4, name: "Drive API" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "AI Web Generate",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
+      "A modern AI-powered web app that generates polished landing pages and digital experiences with smart automation.",
     href: "",
     image: "/assets/projects/neo1.png",
     bgImage: "/assets/backgrounds/neo1.png",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "React.js" },
+      { id: 2, name: "Express.js" },
+      { id: 3, name: "Neon" },
+      { id: 4, name: "Stripe API" },
     ],
   },
-  {
-    id: 4,
-    name: "Electronics & Gadgets Store",
-    description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
-    href: "",
-    image: "/assets/projects/bmw.jpg",
-    bgImage: "/assets/backgrounds/bmw.jpg",
-    frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
-    ],
-  },
-  {
-    id: 5,
-    name: "Home Decor Marketplace",
-    description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
-    href: "",
-    image: "/assets/projects/bmw.jpg",
-    bgImage: "/assets/backgrounds/bmw.jpg",
-    frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Digital Game Store",
-    description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
-    href: "",
-    image: "/assets/projects/bmw.jpg",
-    bgImage: "/assets/backgrounds/bmw.jpg",
-    frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   name: "Electronics & Gadgets Store",
+  //   description:
+  //     "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
+  //   href: "",
+  //   image: "/assets/projects/bmw.jpg",
+  //   bgImage: "/assets/backgrounds/bmw.jpg",
+  //   frameworks: [
+  //     { id: 1, name: "Vue.js" },
+  //     { id: 2, name: "Laravel" },
+  //     { id: 3, name: "MySQL" },
+  //     { id: 4, name: "SCSS" },
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   name: "Home Decor Marketplace",
+  //   description:
+  //     "A curated collection of designer home decor items, including furniture and artisan vases.",
+  //   href: "",
+  //   image: "/assets/projects/bmw.jpg",
+  //   bgImage: "/assets/backgrounds/bmw.jpg",
+  //   frameworks: [
+  //     { id: 1, name: "Angular" },
+  //     { id: 2, name: "Firebase" },
+  //     { id: 3, name: "GraphQL" },
+  //     { id: 4, name: "Material UI" },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   name: "Digital Game Store",
+  //   description:
+  //     "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
+  //   href: "",
+  //   image: "/assets/projects/bmw.jpg",
+  //   bgImage: "/assets/backgrounds/bmw.jpg",
+  //   frameworks: [
+  //     { id: 1, name: "Svelte" },
+  //     { id: 2, name: "Node.js" },
+  //     { id: 3, name: "MongoDB" },
+  //     { id: 4, name: "Chakra UI" },
+  //   ],
+  // },
 ];
 export const socials = [
   { name: "Instagram", href: "https://www.instagram.com/ghebi_03/" },
