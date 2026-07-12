@@ -83,8 +83,8 @@ export const projects = [
     description:
       "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
     href: "",
-    image: "/assets/projects/bmw.jpg",
-    bgImage: "/assets/backgrounds/bmw.jpg",
+    image: "/assets/projects/beevra2.png",
+    bgImage: "/assets/backgrounds/beevra1.png",
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "Next.js" },
@@ -99,8 +99,8 @@ export const projects = [
     description:
       "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
     href: "",
-    image: "/assets/projects/bmw.jpg",
-    bgImage: "/assets/backgrounds/bmw.jpg",
+    image: "/assets/projects/dins2.png",
+    bgImage: "/assets/backgrounds/dins1.png",
     frameworks: [
       { id: 1, name: "React" },
       { id: 2, name: "Next.js" },
@@ -114,8 +114,8 @@ export const projects = [
     description:
       "An e-commerce platform for Apple products and accessories with deals and category filtering.",
     href: "",
-    image: "/assets/projects/bmw.jpg",
-    bgImage: "/assets/backgrounds/bmw.jpg",
+    image: "/assets/projects/neo1.png",
+    bgImage: "/assets/backgrounds/neo1.png",
     frameworks: [
       { id: 1, name: "Blazor" },
       { id: 2, name: "ASP.NET Core" },
@@ -173,7 +173,7 @@ export const socials = [
   { name: "Instagram", href: "https://www.instagram.com/ghebi_03/" },
   {
     name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
+    href: "https://www.youtube.com/",
   },
   {
     name: "LinkedIn",
