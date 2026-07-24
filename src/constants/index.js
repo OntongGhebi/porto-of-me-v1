@@ -2,76 +2,109 @@ export const servicesData = [
   {
     title: "FullStack Development",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+      "Fast, secure, and maintainable web apps—from SSR frontends to scalable APIs and production-ready databases.",
     items: [
       {
-        title: "Backend Engineering",
-        description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
+        title: "API & Inference Endpoints",
+        description: "(REST/GraphQL, model inference, Next.js API routes)",
       },
       {
         title: "Frontend Excellence",
-        description: "(React, Vue, TypeScript, Interactive UI/UX)",
+        description: "(React, Next.js, TypeScript, Interactive UI/UX)",
       },
       {
-        title: "Database Design",
-        description: "(SQL/NoSQL Optimization, Scalable Structures)",
-      },
-    ],
-  },
-  {
-    title: "DevOps & Cloud Solutions",
-    description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
-    items: [
-      {
-        title: "CI/CD Pipelines",
-        description: "(GitHub Actions, Docker, Kubernetes)",
-      },
-      {
-        title: "Server Management ",
-        description: "(Linux, Nginx, Load Balancing)",
-      },
-      {
-        title: "Performance Tuning",
-        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+        title: "Auth & Integrations",
+        description: "(Firebase Auth, OAuth, Drive API, Stripe)",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "DevOps & Cloud",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Automated deployments, hosted databases, and infrastructure for scalable apps and model serving on cloud platforms.",
     items: [
       {
-        title: "Code Audits",
-        description: "(Refactoring, Tech Debt Cleanup)",
+        title: "CI/CD & Containers",
+        description: "(GitHub Actions, Docker, Kubernetes, Cloud Run)",
       },
       {
-        title: "Pen Testing",
-        description: "(Vulnerability Assessments)",
+        title: "GCP & Server Ops",
+        description: "(Firestore, Cloud Functions, Load Balancing, Neon)",
       },
       {
-        title: "SEO Tech Stack",
-        description: "(SSR, Metadata, Structured Data)",
+        title: "Monitoring & Secrets",
+        description: "(Sentry, Prometheus, Vault, logging & alerting)",
+      },
+    ],
+  },
+  {
+    title: "AI & Data Platforms",
+    description:
+      "Model development to production: training, ETL, inference, and data pipelines powering intelligent features and automation.",
+    items: [
+      {
+        title: "MLOps & Training",
+        description:
+          "(Dataset pipelines, model versioning, retraining workflows)",
+      },
+      {
+        title: "Inference & Serving",
+        description:
+          "(CNNs, REST/gRPC inference endpoints, scaling strategies)",
+      },
+      {
+        title: "Search & Embeddings",
+        description: "(Vector search, embeddings, similarity pipelines)",
       },
     ],
   },
   {
     title: "Web & Mobile Apps",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "Responsive, accessible, and performant experiences for web and mobile—PWA, React Native, and SEO‑friendly frontends.",
     items: [
       {
-        title: "Cross-Platform Apps",
-        description: "(Single codebase for iOS/Android/Web)",
+        title: "Cross-Platform",
+        description: "(Responsive React, PWAs)",
       },
       {
-        title: "PWAs",
-        description: "(Offline mode, Push Notifications)",
+        title: "Performance & SEO",
+        description:
+          "(Lighthouse optimization, SSR, metadata, structured data)",
       },
       {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
+        title: "E‑commerce",
+        description: "(Checkout flows, Stripe integration, inventory APIs)",
+      },
+    ],
+  },
+  {
+    title: "Security & Performance",
+    description:
+      "App hardening and performance engineering to keep products fast and secure under real traffic.",
+    items: [
+      {
+        title: "Security Hardening",
+        description: "(XSS/SQLi protection, OAuth, vulnerability assessments)",
+      },
+      {
+        title: "Performance Engineering",
+        description: "(profiling, caching, CDN, Lighthouse 90+)",
+      },
+    ],
+  },
+  {
+    title: "Payments & Integrations",
+    description:
+      "Third‑party integrations and payment systems to connect apps with external services and monetization flows.",
+    items: [
+      {
+        title: "Payments",
+        description: "(Stripe, Checkout, subscriptions)",
+      },
+      {
+        title: "Third‑party APIs",
+        description: "(Drive API, external SaaS integrations)",
       },
     ],
   },
@@ -171,10 +204,6 @@ export const projects = [
 ];
 export const socials = [
   { name: "Instagram", href: "https://www.instagram.com/ghebi_03/" },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/",
-  },
   {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/ghebi-armando-8b473424a/",
